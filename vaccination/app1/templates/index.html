@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mediplus</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><img src="{% static 'images/img/logo.png' %}" alt="logo"></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Doctors</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="btn book-appointment">Login</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>We Provide <span>Medical</span> Services That You Can Trust!</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque, faucibus libero eu, gravida quam.</p>
+            <div class="buttons">
+                <a href="#" class="btn get-appointment">Get Appointment</a>
+                <a href="#" class="btn about-us">About Us</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="{% static 'images/img/about-img.jpg' %}" alt="Doctor">
+        </div>
+    </section>
+    <section class="info-boxes"></section>
+        <div class="box">
+            <h4>Lorem Amet</h4>
+            <h3>Emergency Cases</h3>
+            <p>Lorem ipsum sit amet consectetur adipiscing elit. Vivamus et erat in lacus convallis sodales.</p>
+            <a href="#" class="learn-more">LEARN MORE &#8594;</a>
+        </div>
+        <div class="box">
+            <h4>Fusce Porttitor</h4>
+            <h3>Doctors Timetable</h3>
+            <p>Lorem ipsum sit amet consectetur adipiscing elit. Vivamus et erat in lacus convallis sodales.</p>
+            <a href="#" class="learn-more">LEARN MORE &#8594;</a>
+        </div>
+        <div class="box">
+            <h4>Donec Luctus</h4>
+            <h3>Opening Hours</h3>
+            <p>
+                Monday - Friday: 8.00 - 20.00<br>
+                Saturday: 9.00 - 18.30<br>
+                Monday - Thursday: 9.00 - 15.00
+            </p>
+            <a href="#" class="learn-more">LEARN MORE &#8594;</a>
+        </div>
+    </section>
+</body>
+</html>

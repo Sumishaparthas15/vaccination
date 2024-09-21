@@ -1,0 +1,171 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header {
+    background-color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    margin-left: 10px; /* Adjust this value to move the logo further or closer to the left */
+}
+
+.logo img {
+    width: 150px; /* Adjust the width of the logo if needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 5px; 
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    
+    
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.book-appointment {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    margin-left: 900px;
+    /* transform: translateX(-200px); */
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #eef2f7;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.hero h2 span {
+    color: #007bff;
+}
+
+.hero p {
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #666;
+}
+
+.buttons .btn {
+    margin-right: 20px;
+}
+
+.get-appointment {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+.about-us {
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+}
+
+.hero-image img {
+    max-width: 400px;
+    border-radius: 10px;
+}
+.info-boxes {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.box {
+    background-color: #007bff;
+    color: white;
+    width: 30%;
+    padding: 30px;
+    border-radius: 10px;
+    position: relative;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box h3 {
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+.box p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.box a.learn-more {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.box:hover {
+    background-color: #0056b3;
+    transform: translateY(-10px);
+}
+
+.box:hover a.learn-more {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .info-boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+    .box {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
